@@ -42,3 +42,12 @@ for url in ['https://headlines.yahoo.co.jp/hl?a=20180928-00000367-oric-ent']:
   "id": "https://headlines.yahoo.co.jp/hl?a=20180928-00000367-oric-ent"
 }
 ```
+
+## プログラムの概要
+**00-pooling.py**  
+10-xml_parse.py, 20-darturl-clean.pyをラップして10分に一度、最新のYahoo Newsがを取得します
+
+**30-facebook_scores.py**  
+graph apiを通じて、Yahoo NewsのFBの反応をJSON形式で取得します。  
+ご自身のFBアプリを登録してtokenをtokensというテキストファイルに書き出しておく必要があります  
+
