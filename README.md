@@ -51,3 +51,8 @@ for url in ['https://headlines.yahoo.co.jp/hl?a=20180928-00000367-oric-ent']:
 graph apiを通じて、Yahoo NewsのFBの反応をJSON形式で取得します。  
 ご自身のFBアプリを登録してtokenをtokensというテキストファイルに書き出しておく必要があります  
 
+**40-parse.py**  
+graph apiの結果とYahoo Newsでスクレイピングした結果を突合して、一つのファイルにまとめます。  
+
+ここまでやったら、株価でも、なんでも好きなように学習すると良いです。  
+
