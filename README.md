@@ -7,6 +7,12 @@ Yahoo Newsを日々スクレイピングして、ニュースのコーパスと�
 ## 解決
 Yahoo Newsの運営者でもなければ何もわからないのですが、幸いにしてYahoo NewsはURLでFaceBookに公開できるUIになっており、これが記事の人気度などと考えることができそうです。
 
+### Facebook Developerの登録
+[このURL](https://developers.facebook.com/?locale=ja_JP)から登録できます。
+
+### Graph APIのアクセストークンの発行
+[このURL](https://developers.facebook.com/tools/explorer?method=GET&path=me%3Ffields%3Did%2Cname&version=v3.1)から登録する
+
 ## サンプルクエリ
 Python等でラップアップしているととても便利です
 ```python
